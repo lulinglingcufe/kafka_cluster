@@ -1,0 +1,17 @@
+2021-01-04T07:58:35.046Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'edu-network' already exists
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2021-01-04T07:58:35.057Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'edu-network' already exists
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2021-01-04T07:58:35.064Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'edu-network' already exists
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2021-01-04T07:58:35.067Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: chaincode with name 'edu-network' already exists
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2021-01-04T08:55:29.386Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '61fc557833ecc1bbffab79c0346a234efd0e6b8e7c0a4aa006c70f10f6ab41a6', must be activated (ACTIVATION_REQUIRED)
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2021-01-04T08:55:29.389Z WARN    :HLFQueryHandler          :queryChaincode()          query payload returned an error: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '61fc557833ecc1bbffab79c0346a234efd0e6b8e7c0a4aa006c70f10f6ab41a6', must be activated (ACTIVATION_REQUIRED) {}$
+2021-01-04T08:55:29.390Z ERROR   :HLFConnection            :ping()                    {"message":"Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '61fc557833ecc1bbffab79c0346a234efd0e6b8e7c0a4aa006c70f10f6ab41a6', must be activated (ACTIVATION_REQUIRED)","stack":"Error: Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '61fc557833ecc1bbffab79c0346a234efd0e6b8e7c0a4aa006c70f10f6ab41a6', must be activated (ACTIVATION_REQUIRED)\n    at _checkRuntimeVersions.then.catch (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:863:34)\n    at <anonymous>"}$

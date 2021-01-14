@@ -1,0 +1,45 @@
+2021-01-05T03:51:48.553Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '01899e04161a3a6d64670504fa122e55818295352929b6a616333a3739fde3f2', must be activated (ACTIVATION_REQUIRED)
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/fabric-client/lib/Peer.js:114:16
+    at /home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:586:7 {}$
+2021-01-05T03:51:48.556Z WARN    :HLFQueryHandler          :queryChaincode()          query payload returned an error: Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '01899e04161a3a6d64670504fa122e55818295352929b6a616333a3739fde3f2', must be activated (ACTIVATION_REQUIRED) {}$
+2021-01-05T03:51:48.556Z ERROR   :HLFConnection            :ping()                    {"message":"Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '01899e04161a3a6d64670504fa122e55818295352929b6a616333a3739fde3f2', must be activated (ACTIVATION_REQUIRED)","stack":"Error: Error trying to ping. Error: transaction returned with failure: Error: The current identity, with the name 'admin' and the identifier '01899e04161a3a6d64670504fa122e55818295352929b6a616333a3739fde3f2', must be activated (ACTIVATION_REQUIRED)\n    at _checkRuntimeVersions.then.catch (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/composer-connector-hlfv1/lib/hlfconnection.js:863:34)\n    at <anonymous>"}$
+2021-01-05T05:02:39.748Z WARN    :HLFConnection            :_registerForChaincodeEven Eventhub 10.214.241.224:7051 for CC Events disconnected with error 14 UNAVAILABLE: EOF {}$
+2021-01-05T05:03:48.186Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 10.214.241.224:7051 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2021-01-05T05:03:51.231Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2021-01-05T05:03:51.232Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2021-01-05T05:03:51.233Z WARN    :HLFQueryHandler          :queryChaincode()          Peer peer0.org1.example.com failed to respond. Error: Failed to connect before the deadline {}$
+2021-01-05T05:03:54.898Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2021-01-05T05:03:54.899Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2021-01-05T05:03:54.900Z ERROR   :HLFConnectionManager     :fabric-client()           [Channel.js]: getChannelConfig - Failed getting channel config. Error: Error: Failed to connect before the deadline
+    at checkState (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2021-01-05T05:03:54.900Z ERROR   :HLFConnectionManager     :fabric-client()           [Channel.js]: Error: Failed to connect before the deadline
+    at checkState (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2021-01-05T05:03:54.901Z WARN    :HLFConnection            :_initializeChannel()      error trying to initialize channel. Error returned Error: Error: Failed to connect before the deadline {}$
+2021-01-05T05:03:57.912Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2021-01-05T05:03:57.913Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2021-01-05T05:03:57.913Z ERROR   :HLFConnectionManager     :fabric-client()           [Channel.js]: getChannelConfig - Failed getting channel config. Error: Error: Failed to connect before the deadline
+    at checkState (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2021-01-05T05:03:57.913Z ERROR   :HLFConnectionManager     :fabric-client()           [Channel.js]: Error: Failed to connect before the deadline
+    at checkState (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2021-01-05T05:03:57.914Z WARN    :HLFConnection            :_initializeChannel()      error trying to initialize channel. Error returned Error: Error: Failed to connect before the deadline {}$
+2021-01-05T05:04:00.928Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2021-01-05T05:04:00.929Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2021-01-05T05:04:00.929Z ERROR   :HLFConnectionManager     :fabric-client()           [Channel.js]: getChannelConfig - Failed getting channel config. Error: Error: Failed to connect before the deadline
+    at checkState (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2021-01-05T05:04:00.929Z ERROR   :HLFConnectionManager     :fabric-client()           [Channel.js]: Error: Failed to connect before the deadline
+    at checkState (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2021-01-05T05:04:00.930Z WARN    :HLFConnection            :_initializeChannel()      error trying to initialize channel. Error returned Error: Error: Failed to connect before the deadline {}$
+2021-01-05T05:04:04.004Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2021-01-05T05:05:05.903Z WARN    :HLFConnection            :_registerForChaincodeEven Eventhub 10.214.241.224:7057 for CC Events disconnected with error 14 UNAVAILABLE: EOF {}$
+2021-01-05T05:05:28.652Z WARN    :HLFConnection            :_connectToEventHubs()     event hub 10.214.241.224:7057 failed to connect: 14 UNAVAILABLE: Connect Failed {}$
+2021-01-05T05:05:32.155Z ERROR   :HLFConnectionManager     :fabric-client()           [Remote.js]: Error: Failed to connect before the deadline {}$
+2021-01-05T05:05:32.155Z ERROR   :HLFConnectionManager     :fabric-client()           [client-utils.js]: sendPeersProposal - Promise is rejected: Error: Failed to connect before the deadline
+    at checkState (/home/composer/.npm-global/lib/node_modules/composer-cli/node_modules/grpc/src/client.js:838:16) {}$
+2021-01-05T05:05:32.157Z WARN    :HLFConnection            :_validatePeerResponses()  Response from attempted peer comms was an error: Error: Failed to connect before the deadline {}$
+2021-01-05T05:49:24.543Z WARN    :HLFConnection            :_registerForChaincodeEven Eventhub 10.214.241.224:8051 for CC Events disconnected with error 14 UNAVAILABLE: EOF {}$
+2021-01-05T05:49:24.550Z WARN    :HLFConnection            :_registerForChaincodeEven Eventhub 10.214.241.224:8057 for CC Events disconnected with error 14 UNAVAILABLE: EOF {}$
+2021-01-05T05:49:24.550Z WARN    :HLFConnection            :_registerForChaincodeEven could not find any connected event hubs out of 4 defined hubs to listen on for chaincode events {}$
